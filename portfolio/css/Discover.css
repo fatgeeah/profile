@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVRgoa2UbcngbM_7inD00efy8mhZVt6g3KNQ&usqp=CAU');
+    background-postion: cover;
+    
+}
+.hero p{
+	font-size: 100px;
+    font-weight: 100;
+    font-style: italic;
+	font-style: bold;
+    font-family: sans-serif;
+    color: #53055A;
+}
+.hero h2{
+	font-size: 120px;
+    font-weight: 100;
+    font-style: italic;
+	font-style: bold;
+    font-family: sans-serif;
+    color: black;
+}	
+.hero h2:hover{
+	-webkit-text-stroke: #070299;
+	color:transparent;
+}
+.hero h3{
+	font-size: 120px;
+    font-weight: 100;
+    font-style: italic;
+	font-style: bold;
+    font-family: sans-serif;
+    color: #53055A;
+}
+button {
+ height: 3em;
+ width: 8em;
+ border: none;
+ border-radius: 10em;
+ background: #016DD9;
+ font-size: 17px;
+ color: #ffffff;
+ font-family: inherit;
+ font-weight: 500;
+}
+
+button:hover {
+ animation: shake3856 0.3s linear infinite both;
+}
+
+@keyframes shake3856 {
+ 0% {
+  -webkit-transform: translate(0);
+  transform: translate(0);
+ }
+
+ 20% {
+  -webkit-transform: translate(-2px, 2px);
+  transform: translate(-2px, 2px);
+ }
+
+ 40% {
+  -webkit-transform: translate(-2px, -2px);
+  transform: translate(-2px, -2px);
+ }
+
+ 60% {
+  -webkit-transform: translate(2px, 2px);
+  transform: translate(2px, 2px);
+ }
+
+ 80% {
+  -webkit-transform: translate(2px, -2px);
+  transform: translate(2px, -2px);
+ }
+
+ 100% {
+  -webkit-transform: translate(0);
+  transform: translate(0);
+ }
+}
+
+  @media only screen and (max-width:720px){
+	  .hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVRgoa2UbcngbM_7inD00efy8mhZVt6g3KNQ&usqp=CAU');
+    background-postion: cover;
+    
+}
+.hero p{
+	font-size: 20px;
+    font-weight: 80;
+    font-style: italic;
+	font-style: bold;
+    font-family: sans-serif;
+    color: #53055A;
+}
+.hero h2{
+	font-size: 50px;
+    font-weight: 80;
+    font-style: italic;
+	font-style: bold;
+    font-family: sans-serif;
+    color: black;
+}	
+.hero h2:hover{
+	-webkit-text-stroke:#070299;
+	color:transparent;
+}
+ .hero h3{
+    font-size: 25px;
+    font-weight: 100;
+    font-style: italic;
+	font-style: bold;
+    font-family: sans-serif;
+    color:#53055A;
+}	
+button {
+ height: 3em;
+ width: 8em;
+ border: none;
+ border-radius: 10em;
+ background: #016DD9;
+ font-size: 17px;
+ color: #ffffff;
+ font-family: inherit;
+ font-weight: 500;
+}
+
+button:hover {
+ animation: shake3856 0.3s linear infinite both;
+}
+
+@keyframes shake3856 {
+ 0% {
+  -webkit-transform: translate(0);
+  transform: translate(0);
+ }
+
+ 20% {
+  -webkit-transform: translate(-2px, 2px);
+  transform: translate(-2px, 2px);
+ }
+
+ 40% {
+  -webkit-transform: translate(-2px, -2px);
+  transform: translate(-2px, -2px);
+ }
+
+ 60% {
+  -webkit-transform: translate(2px, 2px);
+  transform: translate(2px, 2px);
+ }
+
+ 80% {
+  -webkit-transform: translate(2px, -2px);
+  transform: translate(2px, -2px);
+ }
+
+ 100% {
+  -webkit-transform: translate(0);
+  transform: translate(0);
+ }
+}	  
